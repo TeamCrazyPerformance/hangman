@@ -1,258 +1,102 @@
 ﻿administrator,Another word for either the root user or one who has adopted that user’s powers temporarily.
-alias,"Method of creating a user-defined command that, when typed, causes another command to
-be run or a string to be expanded."
-apache,"Popular Open Source web server software that runs on Unix, Linux, and other operating
-system platforms. Considered responsible in part for the rise in popularity of Linux in the
-late 1990s."
-applet,"Small program that, in the context of the Ubuntu desktop, runs as part of a larger program
-and offers functions that complement the main program. The GNOME desktop incorporates
-several applets in its notification area."
-archive,"Any file containing a collection of smaller files, compressed or otherwise (see also tar)."
-bash,"Bourne Again SHell. The most common shell interpreter used under Linux and offered as
-default on many Linux systems."
-checksum,"Mathematical process that can be applied to a file or other data to create a unique number
-relative to the contents of that file. If the file is modified, the checksum will change, usually
-indicating that the file in question has failed to download correctly or has been modified in
-some way. The most common type of checksum program used under Linux is md5sum."
+alias,Method of creating a user-defined command that, when typed, causes another command to be run or a string to be expanded.
+apache,Popular Open Source web server software that runs on Unix, Linux, and other operating system platforms. Considered responsible in part for the rise in popularity of Linux in the late 1990s.
+applet,Small program that, in the context of the Ubuntu desktop, runs as part of a larger program and offers functions that complement the main program. The GNOME desktop incorporates several applets in its notification area.
+archive,Any file containing a collection of smaller files, compressed or otherwise (see also tar).
+bash,Bourne Again SHell. The most common shell interpreter used under Linux and offered as default on many Linux systems.
+checksum,Mathematical process that can be applied to a file or other data to create a unique number relative to the contents of that file. If the file is modified, the checksum will change, usually indicating that the file in question has failed to download correctly or has been modified in some way. The most common type of checksum program used under Linux is md5sum.
 client,Shorthand referring to a computer that connects to a server.
 code,See source code
-command,"Input typed at the shell that performs a specific task, usually related to administration of the
-system and/or the manipulation of files."
-commodity,"In the context of hardware, describes PC hardware usually based around Intel or AMD
-processors that can be bought off the shelf and used to create sophisticated computer systems
-(as opposed to buying specially designed hardware). One reason for Linux’s success is its
-ability to use commodity hardware."
-community,"The general term for the millions of Linux users worldwide, regardless of what they use
-Linux for or their individual backgrounds. By using Linux, you automatically become part
-of the community."
-compile,"The practice of creating a binary file from source code, usually achieved using the ./configure,
-make, make install series of commands and scripts."
-copyleft,"The legal principle of protecting the right to share a creative work, such as a computer
-program, using a legally binding license. Copyleft also ensures future iterations of the work
-are covered in the same way."
-cracker,"Someone who breaks into computer systems to steal data or cause damage. The term is not
-necessarily linked to Linux or Unix but was created by the community to combat the widespread use of hacker in this sense. The word hacker has traditionally defined someone who
-merely administers, programs, and generally enjoys computers."
+command,Input typed at the shell that performs a specific task, usually related to administration of the system and/or the manipulation of files.
+commodity,In the context of hardware, describes PC hardware usually based around Intel or AMD processors that can be bought off the shelf and used to create sophisticated computer systems(as opposed to buying specially designed hardware). One reason for Linux’s success is its ability to use commodity hardware.
+community,The general term for the millions of Linux users worldwide, regardless of what they use Linux for or their individual backgrounds. By using Linux, you automatically become part of the community.
+compile,The practice of creating a binary file from source code, usually achieved using the ./configure, make, make install series of commands and scripts.
+copyleft,The legal principle of protecting the right to share a creative work, such as a computer program, using a legally binding license. Copyleft also ensures future iterations of the work are covered in the same way.
+cracker,Someone who breaks into computer systems to steal data or cause damage. The term is not necessarily linked to Linux or Unix but was created by the community to combat the widespread use of hacker in this sense. The word hacker has traditionally defined someone who merely administers, programs, and generally enjoys computers.
 cron,Background service that schedules tasks to occur at certain times. It relies on the crontab file.
-cups,"Common Unix Printing System; set of programs that work in the background to handle
-printing under Unix and Linux."
-curses,"Library that lets software present a semigraphical interface at the shell, complete with menu
-systems and simple mouse control (if configured). The version of curses used under Linux
-and Unix is called ncurses."
+cups,Common Unix Printing System; set of programs that work in the background to handle printing under Unix and Linux.
+curses,Library that lets software present a semigraphical interface at the shell, complete with menu systems and simple mouse control (if configured). The version of curses used under Linux and Unix is called ncurses.
 daemon,See service.
-debian,"Voluntary organization that produces distributions of Free Software operating systems,
-including Linux. Because it is a nonprofit organization run by passionate Free Software
-advocates, it is considered the most ethically sound of all Linux outfits. Many distributions,
-including Ubuntu, use Debian as the basis for their software because of its claimed reliability
-and relative simplicity."
-dependency,"A way of referring to system files that a program requires in order to run. If the dependencies
-are not present during program installation, a program might refuse to install."
-device,"Linux shorthand describing something on your system that provides a function for the user
-or that the system requires in order to run. This usually refers to hardware, but it can also
-describe a virtual device that is created to provide access to a particular Linux function."
-directory,"What Windows refers to as a folder; areas on a hard disk in which files can be stored and
-organized."
-distribution,"A collection of software making up the Linux operating system; also known as a distro. The
-software is usually compiled by either a company or organization. A distribution is designed
-to be easy to install, administer, and use by virtue of it being an integrated whole. Examples
-include Ubuntu, SUSE Linux, Red Hat, and Debian"
+debian,Voluntary organization that produces distributions of Free Software operating systems, including Linux. Because it is a nonprofit organization run by passionate Free Software advocates, it is considered the most ethically sound of all Linux outfits. Many distributions, including Ubuntu, use Debian as the basis for their software because of its claimed reliability and relative simplicity.
+dependency,A way of referring to system files that a program requires in order to run. If the dependencies are not present during program installation, a program might refuse to install.
+device,Linux shorthand describing something on your system that provides a function for the user or that the system requires in order to run. This usually refers to hardware, but it can also describe a virtual device that is created to provide access to a particular Linux function.
+directory,What Windows refers to as a folder; areas on a hard disk in which files can be stored and organized.
+distribution,A collection of software making up the Linux operating system; also known as a distro. The software is usually compiled by either a company or organization. A distribution is designed to be easy to install, administer, and use by virtue of it being an integrated whole. Examples include Ubuntu, SUSE Linux, Red Hat, and Debian
 distro,Shorthand for distribution.
-documentation,"Another way of describing written guides or instructions; can refer to online sources of help
-as well as actual printed documentation."
-dpkg,"Shell command that can be used to administer software under Ubuntu and Debian. However,
-the APT system, which uses dpkg, is the preferred method of installing software."
-emacs,"Seminal text editor and pseudo-shell beloved by Unix aficionados; can be used for programming tasks, simple word processing, and much more. This editor has cultural significance as
-one of the core pieces of software offered by GNU Project, The. Emacs was originally developed
-principally by Stallman, Richard. See also vi."
-environment,"Shorthand referring to a user’s unique Linux configuration, such as variables that tell the
-shell where programs are located."
+documentation,Another way of describing written guides or instructions; can refer to online sources of help as well as actual printed documentation.
+dpkg,Shell command that can be used to administer software under Ubuntu and Debian. However, the APT system, which uses dpkg, is the preferred method of installing software.
+emacs,Seminal text editor and pseudo-shell beloved by Unix aficionados; can be used for programming tasks, simple word processing, and much more. This editor has cultural significance as one of the core pieces of software offered by GNU Project, The. Emacs was originally developed principally by Stallman, Richard. See also vi.
+environment,Shorthand referring to a user’s unique Linux configuration, such as variables that tell the shell where programs are located.
 firefox,Web browser program used under Ubuntu and produced by the Mozilla Foundation.
-floss,"Free, Libre, or Open Source Software; used within the community to describe all software or
-technology that, broadly speaking, adheres to the ethical approach of Open Source software
-and/or Free Software, as well as its legal guidelines."
+floss,Free, Libre, or Open Source Software; used within the community to describe all software or technology that, broadly speaking, adheres to the ethical approach of Open Source software and/or Free Software, as well as its legal guidelines.
 foss,Free or Open Source Software; alternative term for FLOSS.
-free,"When used to describe software or associated areas of technology, “free” indicates that
-the project abides by the ethical (if not legal) guidelines laid down by GNU Project, The.
-It doesn’t indicate that the software is free in a monetary sense; its meaning is quite different
-from “freeware.”"
-gimp,"GNU Image Manipulation Program; high-powered image-editing program that runs under
-Linux, Unix, Windows and other operating systems. Often preceded by the definite article:
-“The GIMP.”"
-gnome,"GNU Network Object Model Environment; a GUI-based desktop environment used by
-Ubuntu, as well as several other distributions. It uses the GTK+ libraries. See also KDE."
-grep,"Global Regular Expression Print; powerful shell command that lets you search a file or other
-form of input using regular expressions. Because of the ubiquity of the grep program, many
-Linux and Unix users refer to searching as “grepping.” To “grep a file” is to search through it
-for a string"
+free,When used to describe software or associated areas of technology, “free” indicates that the project abides by the ethical (if not legal) guidelines laid down by GNU Project, The. It doesn’t indicate that the software is free in a monetary sense; its meaning is quite different from “freeware.”
+gimp,GNU Image Manipulation Program; high-powered image-editing program that runs under Linux, Unix, Windows and other operating systems. Often preceded by the definite article: “The GIMP.”
+gnome,GNU Network Object Model Environment; a GUI-based desktop environment used by Ubuntu, as well as several other distributions. It uses the GTK+ libraries. See also KDE.
+grep,Global Regular Expression Print; powerful shell command that lets you search a file or other form of input using regular expressions. Because of the ubiquity of the grep program, many Linux and Unix users refer to searching as “grepping.” To “grep a file” is to search through it for a string
 group,Collection of users under one heading (group name) to facilitate system administration.
-grub,"GRand Unified Bootloader; boot manager program that offers a menu from which you can
-choose which operating system you wish to boot. It’s needed to load the kernel program and
-thereby initiate the Linux boot procedure."
-guru,"One who is experienced and knowledgeable about Linux/Unix and is willing to share his or
-her knowledge with others. In a perfect world, every newbie would have his or her own guru."
-gzip,"One of the two preferred forms of file compression used under Linux. Files employing gzip
-compression usually have a .gz file extension. See also bzip2."
-hack,"Ingenious and/or extremely efficient solution to a problem, particularly within the
-programming world."
-hacker,"Term used within the community to describe anyone who enjoys computers and possesses
-some skill therein, either in a professional capacity or as a hobby. This term is distinct from
-connotations of maliciously breaking into computers propagated by the media. See also cracker."
+grub,GRand Unified Bootloader; boot manager program that offers a menu from which you can choose which operating system you wish to boot. It’s needed to load the kernel program and thereby initiate the Linux boot procedure.
+guru,One who is experienced and knowledgeable about Linux/Unix and is willing to share his or her knowledge with others. In a perfect world, every newbie would have his or her own guru.
+gzip,One of the two preferred forms of file compression used under Linux. Files employing gzip compression usually have a .gz file extension. See also bzip2.
+hack,Ingenious and/or extremely efficient solution to a problem, particularly within the programming world.
+hacker,Term used within the community to describe anyone who enjoys computers and possesses some skill therein, either in a professional capacity or as a hobby. This term is distinct from connotations of maliciously breaking into computers propagated by the media. See also cracker.
 host,Shorthand referring to any computer that acts as a server to another computer. See also client.
-hurd,"Kernel being developed by GNU Project, The. It’s not associated with the Linux kernel in
-any way."
-info,"Source of documentation accessible from the shell; an alternative to the more established
-man page system. Also known as Texinfo."
-init,"The program that is automatically run after the kernel has finished loading, and therefore
-early in the boot procedure. It’s responsible for effectively starting the operating system."
-initrd,"Initial RAM disk; system used by the Linux kernel to load modules that are essential for the
-kernel to be able to boot, such as disk controllers."
-inode,"Part of the usually invisible file system structure that describes a file, such as its ownership
-permissions or file size."
-ipchains,"Now deprecated component of version 2.2 of the Linux kernel that allows the creation of
-network security setups, such as firewalls or port-forwarding arrangements. Note that some
-distros still prefer to use ipchains. See also iptables."
-iptables,"Component of versions 2.4 and 2.6 of the Linux kernel that allows powerful network security
-setups. Chiefly used in the creation of firewalls, but can be used for more elementary arrangements such as network address translation (NAT) routers."
+hurd,Kernel being developed by GNU Project, The. It’s not associated with the Linux kernel in any way.
+info,Source of documentation accessible from the shell; an alternative to the more established man page system. Also known as Texinfo.
+init,The program that is automatically run after the kernel has finished loading, and therefore early in the boot procedure. It’s responsible for effectively starting the operating system.
+initrd,Initial RAM disk; system used by the Linux kernel to load modules that are essential for the kernel to be able to boot, such as disk controllers.
+inode,Part of the usually invisible file system structure that describes a file, such as its ownership permissions or file size.
+ipchains,Now deprecated component of version 2.2 of the Linux kernel that allows the creation of network security setups, such as firewalls or port-forwarding arrangements. Note that some distros still prefer to use ipchains. See also iptables.
+iptables,Component of versions 2.4 and 2.6 of the Linux kernel that allows powerful network security setups. Chiefly used in the creation of firewalls, but can be used for more elementary arrangements such as network address translation (NAT) routers.
 journaling,File system technology in which integrity is maintained via the logging of disk writes.
-kernel,"Essential but ordinarily invisible set of programs that run the computer’s hardware and
-provide a platform on which to run software. In the Linux operating system, the kernel is
-also called Linux, after its creator, Torvalds, Linus."
-kludge,"Community slang describing an inelegant way of making something work, usually not in a
-way that is generally accepted as being correct. Pronounced “kloodge.”"
-kubuntu,"Version of Ubuntu that substitutes the GNOME desktop environment for KDE. At the time of
-writing, it is less mature than the standard version of Ubuntu."
-lamp,"Acronym describing a series of programs that work together to provide a complete Linuxbased web-hosting environment. Stands for Linux, Apache, MySQL, and Perl, PHP or Python
-(the last three in the list are scripting languages; see script)."
-lgpl,"Lesser GPL; version of the GNU Public License (GPL) in which some use restrictions are
-slackened at the expense of various freedoms laid down by the main GPL. The LGPL is
-mostly used for library files."
-library,"General term referring to code that programs need to run and that, once in memory, is
-frequently accessed by many programs (leading to the phrase “shared library”). The most
-common and vital library is glibc (GNU C Library), created by GNU Project, The and the
-fundamental building block without which Linux could not operate. GNOME relies on the
-GTK+ libraries, among others."
-link,"File system method of assigning additional filenames to a file; also known as a “hard link.”
-See also symbolic link."
-linux,"You mean you don’t know by now? Linux is what this book is all about. It is a kernel program
-created by Torvalds, Linus in 1991 to provide an inexpensive operating system for his computer,
-along with other components. These days, Linux is used to describe the entire operating
-system discussed in this book, although many argue (perhaps quite rightly) that this is
-inaccurate, and use the term GNU/Linux instead."
+kernel,Essential but ordinarily invisible set of programs that run the computer’s hardware and provide a platform on which to run software. In the Linux operating system, the kernel is also called Linux, after its creator, Torvalds, Linus.
+kludge,Community slang describing an inelegant way of making something work, usually not in a way that is generally accepted as being correct. Pronounced “kloodge.”
+kubuntu,Version of Ubuntu that substitutes the GNOME desktop environment for KDE. At the time of writing, it is less mature than the standard version of Ubuntu.
+lamp,Acronym describing a series of programs that work together to provide a complete Linuxbased web-hosting environment. Stands for Linux, Apache, MySQL, and Perl, PHP or Python (the last three in the list are scripting languages; see script).
+lgpl,Lesser GPL; version of the GNU Public License (GPL) in which some use restrictions are slackened at the expense of various freedoms laid down by the main GPL. The LGPL is mostly used for library files.
+library,General term referring to code that programs need to run and that, once in memory, is frequently accessed by many programs (leading to the phrase “shared library”). The most common and vital library is glibc (GNU C Library), created by GNU Project, The and the fundamental building block without which Linux could not operate. GNOME relies on the GTK+ libraries, among others.
+link,File system method of assigning additional filenames to a file; also known as a “hard link.” See also symbolic link.
+linux,You mean you don’t know by now? Linux is what this book is all about. It is a kernel program created by Torvalds, Linus in 1991 to provide an inexpensive operating system for his computer, along with other components. These days, Linux is used to describe the entire operating system discussed in this book, although many argue (perhaps quite rightly) that this is inaccurate, and use the term GNU/Linux instead.
 local,Shorthand referring to the user’s PC or a device directly attached to it (as opposed to remote).
-localhost,"(1) Network name used internally by Linux and software to refer to the local computer,
-distinct from the network.
-(2) Default name given to a Linux-based PC when no other name is defined during installation.
-However, under Ubuntu, the name ubuntu is assigned if no name is defined by the user. "
-minix,"Operating system that is a rough clone of Unix, created by Professor Andrew Tanenbaum.
-It was the inspiration for Linux."
-module,"Program code that can be inserted or removed from the kernel in order to support particular
-pieces of hardware or provide certain kernel functions. Drivers under Windows perform the
-same function."
-mount,"To add a file system so that it is integrated (and therefore accessible) within the main file
-system; applies to external file systems, such as those available across networks, as well as
-those on the local PC, such as the hard disk or CD/DVD-ROMs."
+localhost,(1) Network name used internally by Linux and software to refer to the local computer, distinct from the network. (2) Default name given to a Linux-based PC when no other name is defined during installation. However, under Ubuntu, the name ubuntu is assigned if no name is defined by the user.
+minix,Operating system that is a rough clone of Unix, created by Professor Andrew Tanenbaum. It was the inspiration for Linux.
+module,Program code that can be inserted or removed from the kernel in order to support particular pieces of hardware or provide certain kernel functions. Drivers under Windows perform the same function.
+mount,To add a file system so that it is integrated (and therefore accessible) within the main file system; applies to external file systems, such as those available across networks, as well as those on the local PC, such as the hard disk or CD/DVD-ROMs.
 mysql,Popular and powerful open source database application. See also LAMP.
-newbie,"Term used to describe anyone who is new to Linux and therefore still learning the basics.
-It’s not a derogatory term! See also guru."
-ntfs,"NT File System; file system offered by Windows NT, 2000, and XP. It can be read by Linux,
-but usually writing is prohibited because it is considered unsafe. See also FAT32."
+newbie,Term used to describe anyone who is new to Linux and therefore still learning the basics. It’s not a derogatory term! See also guru.
+ntfs,NT File System; file system offered by Windows NT, 2000, and XP. It can be read by Linux, but usually writing is prohibited because it is considered unsafe. See also FAT32.
 partition,Subdivision of a hard disk into which a file system can be installed.
-pipe,"Method of passing the output from one command to another for further processing. Piping
-is achieved within the shell by typing the | symbol."
-posix,"Portable Operating System Interface; various technical standards that define how Unix-like
-operating systems should operate and to which the Linux operating system attempts to adhere."
-process,"The way the system refers to the individual programs (or components of programs) running
-in memory"
-proprietary,"Effectively, software for which a software license must be acquired, usually for a fee. This
-usually means the source code is kept secret, but it can also indicate that the source code is
-available to view but not to incorporate into your own projects or share with others."
-redirect,"To send the output of a command into a particular file. This also works the other way around:
-the contents of a particular file can be directed into a command. Redirection is achieved
-within the shell using the left and right angle brackets (< and >), respectively."
+pipe,Method of passing the output from one command to another for further processing. Piping is achieved within the shell by typing the | symbol.
+posix,Portable Operating System Interface; various technical standards that define how Unix-like operating systems should operate and to which the Linux operating system attempts to adhere.
+process,The way the system refers to the individual programs (or components of programs) running in memory
+proprietary,Effectively, software for which a software license must be acquired, usually for a fee. This usually means the source code is kept secret, but it can also indicate that the source code is available to view but not to incorporate into your own projects or share with others.
+redirect,To send the output of a command into a particular file. This also works the other way around: the contents of a particular file can be directed into a command. Redirection is achieved within the shell using the left and right angle brackets (< and >), respectively.
 regex,See regular expression.
-remote,"Indicates a computer or service that is available across a network, including but not limited
-to computers on the Internet (as opposed to local)."
-root,"(1) The bottom of the Linux file system directory structure, usually indicated by a forward
-slash (/).
-(2) The user on some versions of Unix or Linux who has control over all aspects of hardware,
-software, and the file system.
-(3) Used to describe a user who temporarily takes on the powers of the root user (via the sudo
-command, for example)."
-rtfm,"Read the freaking manual/man page; exclamation frequently used online when a newbie
-asks for help without having undertaken basic research."
-samba,"Program that re-creates under Unix or Linux the Microsoft SMB-based system of sharing
-files, printers, and other computer resources across a network. It allows Linux to become
-a file or printer server for Linux and Windows computers, and also allows a Linux client to
-access a Windows-based server."
-scalable,"Term describing the ability of a single computer program to meet diverse needs, regardless
-of the scale of the potential uses. The Linux kernel is described as being scalable because it
-can run supercomputers, as well as handheld computers and home entertainment devices."
-script,"Form of computer program consisting of a series of commands in a text file. Most shells
-allow some form of scripting, and entire programming languages such as Perl are based
-around scripts. In the context of the Linux operating system, shell scripts are usually created
-to perform trivial tasks or ones that frequently interact with the user. Shell scripts have the
-advantage that they can be frequently and easily modified. The Linux boot process relies on
-several complex scripts to configure essential system functions such as networking and the
-GUI. See also init."
-server,"(1) Type of computer designed to share data with other computers over a network.
-(2) Software that runs on a computer and is designed to share data with other programs on
-the same PC or with other PCs across a network."
-service,"Background program that provides vital functions for the day-to-day running of Linux; also
-known as a daemon. Services are usually started when the computer boots up and as such
-are constituent parts of a run level."
-shell,"Broadly speaking, any program that creates an operating environment in which you can
-control your computer. The GNOME desktop can be seen as a shell, for example. However,
-it’s more commonly understood within Unix and Linux circles as a program that lets you
-control the system using commands entered at the keyboard. In this context, the most common
-type of shell in use on Linux is BASH."
-solaris,"Form of Unix sold by Sun Microsystems; runs on proprietary hardware systems as well as on
-commodity systems based on Intel and AMD processors."
-ssl,"Secure Sockets Layer; form of network data transfer designed to encrypt information for
-security purposes. It’s used online for certain web sites and also within Linux for certain
-types of secure data exchange."
-string,"A word, phrase, or sentence consisting of letters, numbers, or other characters that is used
-within a program and is often supplied by the user."
-sudo,"Program that runs under Unix and Linux by which ordinary users are temporarily afforded
-administrator rights. Ubuntu relies on sudo as the exclusive way for users to administer
-the system."
-swap,"Area of the hard disk that the Linux kernel uses as a temporary memory storage area. Desktop
-or server Linux differs from Windows in that it usually requires a separate hard disk partition
-in which to store the swap file."
-sysadmin,"Systems administrator; a way of describing the person employed within a company to
-oversee the computer systems. In such an environment, the sysadmin usually is the root
-user of the various computers."
-tainted,"Describes a kernel that is using proprietary modules in addition to Open Source modules.
-Can also refer to insecure software."
+remote,Indicates a computer or service that is available across a network, including but not limited to computers on the Internet (as opposed to local).
+root,(1) The bottom of the Linux file system directory structure, usually indicated by a forward slash (/). (2) The user on some versions of Unix or Linux who has control over all aspects of hardware, software, and the file system. (3) Used to describe a user who temporarily takes on the powers of the root user (via the sudo command, for example).
+rtfm,Read the freaking manual/man page; exclamation frequently used online when a newbie asks for help without having undertaken basic research.
+samba,Program that re-creates under Unix or Linux the Microsoft SMB-based system of sharing files, printers, and other computer resources across a network. It allows Linux to become a file or printer server for Linux and Windows computers, and also allows a Linux client to access a Windows-based server.
+scalable,Term describing the ability of a single computer program to meet diverse needs, regardless of the scale of the potential uses. The Linux kernel is described as being scalable because it can run supercomputers, as well as handheld computers and home entertainment devices.
+script,Form of computer program consisting of a series of commands in a text file. Most shells allow some form of scripting, and entire programming languages such as Perl are based around scripts. In the context of the Linux operating system, shell scripts are usually created to perform trivial tasks or ones that frequently interact with the user. Shell scripts have the advantage that they can be frequently and easily modified. The Linux boot process relies on several complex scripts to configure essential system functions such as networking and the GUI. See also init.
+server,(1) Type of computer designed to share data with other computers over a network. (2) Software that runs on a computer and is designed to share data with other programs on the same PC or with other PCs across a network.
+service,Background program that provides vital functions for the day-to-day running of Linux; also known as a daemon. Services are usually started when the computer boots up and as such are constituent parts of a run level.
+shell,Broadly speaking, any program that creates an operating environment in which you can control your computer. The GNOME desktop can be seen as a shell, for example. However, it’s more commonly understood within Unix and Linux circles as a program that lets you control the system using commands entered at the keyboard. In this context, the most common type of shell in use on Linux is BASH.
+solaris,Form of Unix sold by Sun Microsystems; runs on proprietary hardware systems as well as on commodity systems based on Intel and AMD processors.
+ssl,Secure Sockets Layer; form of network data transfer designed to encrypt information for security purposes. It’s used online for certain web sites and also within Linux for certain types of secure data exchange.
+string,A word, phrase, or sentence consisting of letters, numbers, or other characters that is used within a program and is often supplied by the user.
+sudo,Program that runs under Unix and Linux by which ordinary users are temporarily afforded administrator rights. Ubuntu relies on sudo as the exclusive way for users to administer the system.
+swap,Area of the hard disk that the Linux kernel uses as a temporary memory storage area. Desktop or server Linux differs from Windows in that it usually requires a separate hard disk partition in which to store the swap file.
+sysadmin,Systems administrator; a way of describing the person employed within a company to oversee the computer systems. In such an environment, the sysadmin usually is the root user of the various computers.
+tainted,Describes a kernel that is using proprietary modules in addition to Open Source modules. Can also refer to insecure software.
 terminal,Another word for shell.
-ubuntu,"Linux distribution with several unique characteristics. Ubuntu is designed primarily for
-desktop use, although several server versions are available. It is intended for use by individuals
-in any location in the world, so it has strong multiple language support. It’s run by the
-Ubuntu Foundation, which is financially backed by Shuttleworth, Mark. Each release is
-guaranteed to be supported for 18 months (5 years in the case of server releases)."
-unix,"Seminal operating system created as a research project in 1969 by Kenneth Thompson and
-Dennis Ritchie at Bell Labs (later AT&T). Because it was initially possible to purchase the
-source code for a fee, subsequent revisions were enhanced by a variety of organizations and
-went on to run many mainframe and minicomputer systems throughout the 1980s, 1990s,
-and up to the present. Nowadays, Unix is fragmented and exists in a variety of different versions.
-Perhaps most popular is its Open Source rendition, BSD Unix, which has seen many developments since the source code was first released. This means that BSD Unix no longer exists
-but has instead diversified into a number of separate projects. Proprietary versions are also
-available, including Solaris, HP-UX, and AIX."
-user,"The way the operating system refers to anyone who accesses its resources. A user must first
-have a user account set up, effectively giving that user his or her own private space on the
-system. In addition to actual human users, an average Linux system has many other user
-accounts created to let programs and services go about their business. These are usually not
-seen by human users."
-variable,"A changeable value that stores a certain data type (such as a number, date, or string), remembering it for future reference by the system or script it is defined by. Variables defined by and
-for the Linux kernel are vital to it."
-verbose,"Command option that will cause it to return more detailed output (or, in some cases, to
-return actual output if the command is otherwise “quiet”); usually specified by adding the
--v command option."
-vfat,"Virtual File Allocation Table; technical name of Microsoft’s FAT file system offered under
-Windows and also on removable storage devices such as flash memory cards."
-wine,"Short for Wine Is Not an Emulator; software that re-creates the Windows Application
-Programming Interface (API) layer within Linux and lets users run Windows programs."
+ubuntu,Linux distribution with several unique characteristics. Ubuntu is designed primarily for desktop use, although several server versions are available. It is intended for use by individuals in any location in the world, so it has strong multiple language support. It’s run by the Ubuntu Foundation, which is financially backed by Shuttleworth, Mark. Each release is guaranteed to be supported for 18 months (5 years in the case of server releases).
+unix,Seminal operating system created as a research project in 1969 by Kenneth Thompson and Dennis Ritchie at Bell Labs (later AT&T). Because it was initially possible to purchase the source code for a fee, subsequent revisions were enhanced by a variety of organizations and went on to run many mainframe and minicomputer systems throughout the 1980s, 1990s, and up to the present. Nowadays, Unix is fragmented and exists in a variety of different versions. Perhaps most popular is its Open Source rendition, BSD Unix, which has seen many developments since the source code was first released. This means that BSD Unix no longer exists but has instead diversified into a number of separate projects. Proprietary versions are also available, including Solaris, HP-UX, and AIX.
+user,The way the operating system refers to anyone who accesses its resources. A user must first have a user account set up, effectively giving that user his or her own private space on the system. In addition to actual human users, an average Linux system has many other user accounts created to let programs and services go about their business. These are usually not seen by human users.
+variable,A changeable value that stores a certain data type (such as a number, date, or string), remembering it for future reference by the system or script it is defined by. Variables defined by and for the Linux kernel are vital to it.
+verbose,Command option that will cause it to return more detailed output (or, in some cases, to return actual output if the command is otherwise “quiet”); usually specified by adding the -v command option.
+vfat,Virtual File Allocation Table; technical name of Microsoft’s FAT file system offered under Windows and also on removable storage devices such as flash memory cards.
+wine,Short for Wine Is Not an Emulator; software that re-creates the Windows Application Programming Interface (API) layer within Linux and lets users run Windows programs.
 workspace,X terminology referring to a GUI desktop.
 xinetd,The service responsible for starting various network servers on the computer.
 xmms,Audio player program.
-xterm,"Simple program that allows you to run a shell under X. This program has the advantage of
-being available on most Linux systems that offer a GUI."
+xterm,Simple program that allows you to run a shell under X. This program has the advantage of being available on most Linux systems that offer a GUI.
