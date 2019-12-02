@@ -74,7 +74,7 @@ int main() {
 
   while ((readsize = getline(&line, &length, file)) != -1) {
     char *w = strtok(line, ",");
-    char *d = strtok(NULL, ",");
+    char *d = strtok(NULL, "");
     insertArray(&words, w);
     insertArray(&descriptions, d);
   }
