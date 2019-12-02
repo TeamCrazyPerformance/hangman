@@ -55,6 +55,8 @@ void insertArray(Array *a, char* element) {
 }
 
 int main() {
+  system("clear");
+
   // csv 파일로 부터 단어를 로드
   FILE *file;
   char *line = NULL;
@@ -81,79 +83,99 @@ int main() {
 
   fclose(file);
 
-  // 단어를 랜덤 선택
-  srand(time(NULL));
-  int random = rand() % words.used;//TODO 갯수
-  char *word = words.data[random];
-
-  // show 이 true 면 글자 보이고 false 면 감추기. 모두 false 로 초기화
-  int len = strlen(word);
-  int show[len];
-  int validGuess=0; //이번에 맞았는지
-  int trials; //남은 시도회수
-  int i,j,k,m;
-
   //하이스코어
-  int fd = open("highscore",O_RDWR,O_CREAT);
+  int fd = open("highscore", O_RDWR | O_CREAT, 0666);
   char buffer[BUF_SIZE];
-  read(fd,buffer,BUF_SIZE);
-  printf("HighScore:%s",buffer);
+  read(fd, buffer, BUF_SIZE);
+  highScore = atoi(buffer);
 
+  while(1) {
+    // 단어를 랜덤 선택
+    srand(time(NULL));
+    int random = rand() % words.used;
+    char *word = words.data[random];
 
+    // show 이 true 면 글자 보이고 false 면 감추기. 모두 false 로 초기화
+    int len = strlen(word);
+    int show[len];
+    int validGuess = 0; //이번에 맞았는지
+    int trials = 5; //남은 시도회수
+    int i, j, k, m;
 
-  for (i=0; i < len; ++i) {
-    show[i] = 0;
-  }
-
-  // 글자를 맞춰볼때 마다 반복
-  int end = 0;
-  trials=5;
-
-  while (!end) {
-    // 맞춘만큼 보여주는 단어
-    printf("%s\n", descriptions.data[random]);
-    printf("Answer : ");
-    for(j=0; j < len; ++j) {
-      if (show[j]) {
-        printf("%c", word[j]);
-      }
-      else {
-        printf("_");
-      }
-    }
-    printf("\n");
-
-    printf("Guesses Left: %d\n",trials);
-    // 다음 시도
-    char guess;
-    printf("Letter: ");
-    fflush(stdout);
-    scanf(" %c", &guess);
-
-    // 맞췄으면 글자 보이게
-    for(k=0; k < len; ++k) {
-      if (word[k] == guess||word[k]==(guess-32)) {
-        show[k] = 1;
-        validGuess=1;
-      }
+    for (i = 0; i < len; ++i) {
+      show[i] = 0;
     }
 
-    if(validGuess==0)trials--;
-    validGuess=0;
-    //이겼는지 확인
-    if(!trials){
-      printf("No more guesses left!\n");
-      return 0;
-    }
-    end = 1;
-    for(m = 0; m < len; ++m) {
-      if (!show[m]) {
-        end = 0;
+    // 글자를 맞춰볼때 마다 반복
+    int end = 0;
+
+    while (!end) {
+      // 맞춘만큼 보여주는 단어
+      printf("High Score : %d\n", highScore);
+      printf("Current Score : %d\n", currentScore);
+      printf("\n%s\n", descriptions.data[random]);
+      printf("Answer : ");
+      for (j = 0; j < len; ++j) {
+        if (show[j]) {
+          printf("%c", word[j]);
+        } else {
+          printf("_");
+        }
+      }
+      printf("\n");
+
+      printf("Guesses Left: %d\n", trials);
+      // 다음 시도
+      char guess;
+      printf("Letter: ");
+      fflush(stdout);
+      scanf(" %c", &guess);
+
+      // 맞췄으면 글자 보이게
+      for (k = 0; k < len; ++k) {
+        if (word[k] == guess || word[k] == (guess - 32)) {
+          show[k] = 1;
+          validGuess = 1;
+        }
+      }
+
+      if (validGuess == 0)trials--;
+      validGuess = 0;
+      //이겼는지 확인
+      system("clear");
+      if (!trials) {
+        printf("No more guesses left!\n");
         break;
       }
+      end = 1;
+      for (m = 0; m < len; ++m) {
+        if (!show[m]) {
+          end = 0;
+          break;
+        }
+      }
+    }
+
+    if (!trials) {
+      // 실패
+      printf("High Score : %d\n", highScore);
+      printf("Current Score : %d\n", currentScore);
+
+      // TODO save highscore
+      sprintf(buffer, "%d", highScore);
+      write(fd, buffer, BUF_SIZE);
+      exit(0);
+    } else {
+      // 성공
+      printf("Correct, the answer is : %s.\n", word);
+      currentScore++;
+
+      if(highScore < currentScore) {
+        highScore = currentScore;
+      }
+
+      sleep(5);
+      system("clear");
     }
   }
-  // 성공
-  printf("Correct, the answer is : %s.\n", word);
-  return 0;
 }
