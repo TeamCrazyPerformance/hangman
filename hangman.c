@@ -9,21 +9,21 @@
 
 typedef struct {
     char **data;
-    size_t used;
-    size_t size;
+    int used;
+    int size;
 } Array;
 
-void initArray(Array *a, size_t initialSize) {
+void initArray(Array *a, int initialSize) {
   a->data = malloc(initialSize * sizeof(char *));
   a->used = 0;
   a->size = initialSize;
 }
 
 void freeArray(Array *a) {
-  size_t i;
+  int i;
 
   for (i = 0; i < a->used; ++i)
-    free(a->data[i]);
+  free(a->data[i]);
 
   free(a->data);
   free(a);
@@ -43,7 +43,7 @@ void insertArray(Array *a, char* element) {
   }
 
   if (element != NULL) {
-    size_t length;
+    int length;
 
     length = strlen(element);
     a->data[a->used] = malloc(1 + length);
@@ -60,8 +60,8 @@ int main() {
   // csv 파일로 부터 단어를 로드
   FILE *file;
   char *line = NULL;
-  size_t length = 0;
-  ssize_t readsize;
+  int length = 0;
+  sint readsize;
 
   int currentScore=0,highScore;
 
@@ -174,7 +174,7 @@ int main() {
         highScore = currentScore;
       }
 
-      sleep(2);
+      sleep(5);
       system("clear");
     }
   }
