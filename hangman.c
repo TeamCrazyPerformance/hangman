@@ -120,7 +120,7 @@ int main() {
 
     // 맞췄으면 글자 보이게
     for(k=0; k < len; ++k) {
-      if (word[k] == guess) {
+      if (word[k] == guess||word[k]==(guess-32)||word[k]==(guess+32)) {
         show[k] = 1;
         validGuess=1;
       }
