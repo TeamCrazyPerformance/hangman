@@ -59,7 +59,7 @@ int main() {
   FILE *file;
   char *line = NULL;
   size_t length = 0;
-  ssize_t read;
+  ssize_t readsize;
 
   int currentScore=0,highScore;
 
@@ -72,7 +72,7 @@ int main() {
   initArray(&words, 10);
   initArray(&descriptions, 10);
 
-  while ((read = getline(&line, &length, file)) != -1) {
+  while ((readsize = getline(&line, &length, file)) != -1) {
     char *w = strtok(line, ",");
     char *d = strtok(NULL, ",");
     insertArray(&words, w);
@@ -138,9 +138,8 @@ int main() {
       }
     }
 
-    if(validGuess==0){trials--;}
+    if(validGuess==0)trials--;
     validGuess=0;
-    printf("validGuess=%d",validGuess);
     //이겼는지 확인
     if(!trials){
       printf("No more guesses left!\n");
