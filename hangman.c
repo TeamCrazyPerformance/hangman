@@ -174,7 +174,7 @@ int main() {
         highScore = currentScore;
       }
 
-      sleep(5);
+      sleep(2);
       system("clear");
     }
   }
