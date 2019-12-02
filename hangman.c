@@ -61,6 +61,8 @@ int main() {
   size_t length = 0;
   ssize_t read;
 
+  int currentScore=0,highScore;
+
   file = fopen("voca.csv", "r");
   if (file == NULL)
     exit(-1);
@@ -88,8 +90,16 @@ int main() {
   int len = strlen(word);
   int show[len];
   int validGuess=0; //이번에 맞았는지
-  int trials=5; //남은 시도회수
+  int trials; //남은 시도회수
   int i,j,k,m;
+
+  //하이스코어
+  int fd = open("highscore",O_RDWR,O_CREAT);
+  char buffer[BUF_SIZE];
+  read(fd,buffer,BUF_SIZE);
+  printf("HighScore:%s",buffer);
+
+
 
   for (i=0; i < len; ++i) {
     show[i] = 0;
@@ -97,6 +107,8 @@ int main() {
 
   // 글자를 맞춰볼때 마다 반복
   int end = 0;
+  trials=5;
+
   while (!end) {
     // 맞춘만큼 보여주는 단어
     printf("%s\n", descriptions.data[random]);
@@ -120,12 +132,15 @@ int main() {
 
     // 맞췄으면 글자 보이게
     for(k=0; k < len; ++k) {
-      if (word[k] == guess||word[k]==(guess-32)||word[k]==(guess+32)) {
+      if (word[k] == guess||word[k]==(guess-32)) {
         show[k] = 1;
         validGuess=1;
       }
     }
-    if(!validGuess){trials--;validGuess=0;}
+
+    if(validGuess==0){trials--;}
+    validGuess=0;
+    printf("validGuess=%d",validGuess);
     //이겼는지 확인
     if(!trials){
       printf("No more guesses left!\n");
